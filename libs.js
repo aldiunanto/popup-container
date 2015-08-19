@@ -27,7 +27,7 @@ LIBS = {
 					});
 
 					el.find('.close-button').on('click', function(){
-						LIBS.popupDialog('close');
+						LIBS.popup('close');
 					});
 
 					var positiveButton = el.find('.positive');
