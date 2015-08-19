@@ -1,0 +1,40 @@
+body{
+	margin: 0; padding: 0;
+	font: 13px normal verdana, arial, tahoma;
+}
+
+.clearfix{ clear: both; margin: 0; padding: 0; }
+
+#popup{
+	display: none;
+	z-index: 6;
+	position: fixed;
+	#class > .radius(8px);
+	#class > .box-shadow(2px, 2px, 6px, #333);
+	background-color: #fff;
+	border: 5px solid #DF4D00;
+}
+#popup .header{
+	background-color: #DF4D00;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 0;
+}
+#popup .header .close-button{
+	float: right;
+	color: #fff;
+	display: inline-block;
+	line-height: 0;
+	padding: 8px;
+	margin-top: -4px;
+}
+#popup .header .caption{ margin-left: 10px; }
+#popup .header .caption > i{ margin-right: 10px; }
+#popup .content{ padding: 12px 14px; font-size: 13px; }
+#popup .footer{
+	padding: 0 13px;
+	margin: 10px 0 10px;
+}
+#popup .footer .positive{ float: right; }
+#popup .footer .negative{ float: left; }
