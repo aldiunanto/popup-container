@@ -41,7 +41,7 @@ $('.opener').on('click', function(){
 		content += '<p>Magni quod alias cupiditate, maiores, blanditiis recusandae, ipsam explicabo tempora qui aperiam vitae rerum?</p>';
 		content += '<p>Amet sed tempore, enim corporis distinctio exercitationem ea.</p>';
 
-  //content is load statically. You can custom this by your advance something like load via ajax, etc.
+  //content load statically. You can custom this by your advance something like load via ajax, etc.
 
 	LIBS.popup('open', {
 		'caption'		: 'Popup Container',
